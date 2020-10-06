@@ -1,8 +1,19 @@
 using System;
 
 class Vendedor{
-  double salario;
-  double comissao;
+  private double salario;
+  private double comissao;
+  private string nome;
+
+
+//Set nome
+public void setNome(string n){
+  nome = n;
+}
+//Get nome
+public string getNome(){
+  return nome;
+}
   
 
 
