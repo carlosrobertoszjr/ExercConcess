@@ -4,16 +4,19 @@ class Mostruario {
   //TAD
   private Vendedor representante;
         //EST  <TAD>    VARIAVEL 
-  public List<veiculo> carros;
+  public List<Veiculo> carros;
 
-  public Mostruario(){
-    carros = new List<veiculo>();
+  public Mostruario(Vendedor v){
+    representante = v;
+    carros = new List<Veiculo>();
+    
 
   }
 
   public void setRepresentante(Vendedor v){
     representante = v;
   }
+  
 
 
 }
